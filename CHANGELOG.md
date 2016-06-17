@@ -8,7 +8,7 @@ All notable changes to the project will be documented in this file.
 
 #### API breaking changes
 
-N/A
+- Swift 3 support (currently not merged in master, available using branch `feature/swift3`). README up to date (possibility of some diffs, please report you find some)
 
 #### Enhancements
 
@@ -17,19 +17,8 @@ New protocols available, take a look into the README to see the details:
 - Then
 - NSBundle is now available for macOS
 
-New methods available for the following classes, take a look into the README to see the details:
-
-   
-   - UIColor/NSColor:
-
-```swift
-func lighter()
-func darker()
-```
-
 #### Bugfixes
 
-N/A
 
 ## [0.3.0](https://github.com/tbaranes/SwiftyUtils/releases/tag/0.3.0) (19-05-2016)
 
