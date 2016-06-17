@@ -30,8 +30,8 @@ public extension UIImage {
         color?.setFill()
         UIRectFill(rect)
         let image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()        
+        UIGraphicsEndImageContext()
         self.init(cgImage: (image?.cgImage!)!)
     }
-    
+
 }

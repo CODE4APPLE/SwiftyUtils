@@ -34,7 +34,7 @@ public extension SwiftyColor {
     public convenience init?(hexString: String) {
         self.init(hexString: hexString, alpha: 1.0)
     }
-    
+
     public convenience init?(hexString: String, alpha: Float) {
         var formatted = hexString.replacingOccurrences(of: "0x", with: "")
         formatted = formatted.replacingOccurrences(of: "#", with: "")
@@ -47,7 +47,7 @@ public extension SwiftyColor {
             return nil
         }
     }
-    
+
 }
 
 // MARK: Get Colors
