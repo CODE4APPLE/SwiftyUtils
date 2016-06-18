@@ -13,6 +13,8 @@ All notable changes to the project will be documented in this file.
 
 #### Enhancements
 
+- watchOS support
+
 New protocols available, take a look into the README to see the details:
 
 - Then
