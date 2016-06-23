@@ -13,12 +13,46 @@ All notable changes to the project will be documented in this file.
 
 #### Enhancements
 
+*Note: Take a look into the README to see the details of all the following enhancements* 
+
 - watchOS support
 
-New protocols available, take a look into the README to see the details:
+New protocols available:
 
 - Then
 - NSBundle is now available for macOS
+
+New extensions available:
+
+- Color:
+
+```swift
+var redComponent: Int
+var greenComponent: Int
+var blueComponent: Int
+var alpha: CGFloat
+```
+
+- String:
+
+```swift
+init?(value: Float, maxDigits: Int)
+init?(value: Double, maxDigits: Int)
+```
+
+New extensions (iOS) for classes:
+
+- UIStoryboard:
+
+```swift
+static var main: UIStoryboard
+```
+
+- UISwitch:
+
+```swift
+func toggle(animated: Bool = true)
+```
 
 #### Bugfixes
 
