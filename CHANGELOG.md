@@ -22,6 +22,11 @@ All notable changes to the project will be documented in this file.
 - Then
 - NSBundle is now available for macOS
 
+**New classes:**
+
+- UITesting
+- UnitTesting
+
 **New extensions:**
 
 - Color:
