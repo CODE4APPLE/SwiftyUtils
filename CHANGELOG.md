@@ -27,6 +27,10 @@ All notable changes to the project will be documented in this file.
 - UITesting
 - UnitTesting
 
+**New iOS classes:**
+
+- Simulator
+
 **New extensions:**
 
 - Color:
