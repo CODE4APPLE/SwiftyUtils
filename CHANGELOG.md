@@ -40,6 +40,9 @@ var redComponent: Int
 var greenComponent: Int
 var blueComponent: Int
 var alpha: CGFloat
+
+func darker(amount: CGFloat = 0.25) -> SwiftyColor
+func lighter(amount: CGFloat = 0.25) -> SwiftyColor
 ```
 
 - String:
